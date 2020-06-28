@@ -1,0 +1,157 @@
+body{
+    background: #e7d4ba;
+}
+
+p, h1, h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 25px;
+    color: #FAFAFA;
+}
+
+h2{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+}
+
+#navbar{
+    background: #415031;
+    text-align: center;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: #FAFAFA;
+    text-align: center;
+}
+
+#navbar a img{
+    border-image: stretch;
+}
+ 
+.image{
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .8s ease;
+    background: #415031;
+}
+  
+.image:hover .overlay {
+    opacity: 0.6;
+}
+  
+.text p{
+    position: absolute;
+    color: #FAFAFA;
+    font-size: 16px;
+    text-align: justify;
+    padding: 15px;
+    text-indent: 10%;
+}
+
+.titulos-imagens{
+    text-align: center;
+    background: #415031;
+    margin: 0;
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    color: #FAFAFA;
+}
+
+.img-thumbnail{
+    border: 1px solid #415031;
+    border-radius: 0;
+    background-color: #415031;
+}
+
+.objeto{
+    padding: 0;
+    margin: 0;
+}
+
+.row{
+    max-width: 1000px;
+    margin: 0;
+    padding: 0;
+}
+
+
+aside{
+    color: #415031;
+    padding: 15px;
+    position: fixed;
+    border: 2px solid #415031;
+    border-radius: 5px;
+    width: 300px;
+    right: 5px;
+    
+}
+
+.container{
+    padding: 0;
+    margin: 0;
+    max-width: 1000px;
+}
+
+.col{
+    margin: 0;
+    padding: 0;
+    margin: 0 20px 0 20px;
+
+}
+
+.objeto{
+    margin-top: 30px;
+}
+
+footer{
+    margin: 0;
+    margin-top: 20px;
+    padding: 20px 20px 0 20px;
+    background: #415031;
+    text-align: center;
+}
+
+footer p{
+    color: #e7d4ba;
+    margin: 0;
+    padding: 0;
+}
+
+.row-bottom{
+    bottom: 0;
+    margin: 0;
+    text-align: center;
+}
+
+footer .principal{
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
+}
+
+footer .gmail{
+    right:0;
+}
+
+footer .contatos img{
+    margin: 2px;
+}
+
+.col-5{
+    margin: 0;
+    padding: 0;
+}
